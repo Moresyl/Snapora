@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 下载最新版本
+    url: https://github.com/Moresyl/Snapora/releases/latest
+    about: 请先确认问题在最新版本中仍然存在。
+  - name: 隐私与使用协议
+    url: https://github.com/Moresyl/Snapora/blob/main/LICENSE.txt
+    about: 查看隐私说明、使用协议和数据处理说明。
