@@ -1,7 +1,109 @@
 Snapora
+Copyright (c) 2026 Mores. All rights reserved.
 版权所有 © 2026 Mores。保留所有权利。
 
-本仓库仅发布 Snapora 的 Windows 安装包，不包含源代码。安装和使用 Snapora 须遵守下文《Snapora 隐私说明与使用协议》，其内容与安装程序中显示的协议一致。第三方组件的许可证见 THIRD_PARTY_NOTICES.md。
+This repository distributes only the Windows installer of Snapora; the source code is not included. Installing and using Snapora is subject to the "Snapora Privacy Notice and Terms of Use" below, which is identical to the agreement shown by the installer. The Chinese text is the binding version; the English text is a reference translation. Third-party component licenses are listed in THIRD_PARTY_NOTICES.md.
+
+本仓库仅发布 Snapora 的 Windows 安装包，不包含源代码。安装和使用 Snapora 须遵守下文《Snapora 隐私说明与使用协议》，其内容与安装程序中显示的协议一致；以中文版本为准，英文为参考译文。第三方组件的许可证见 THIRD_PARTY_NOTICES.md。
+
+------------------------------------------------------------
+
+Snapora Privacy Notice and Terms of Use
+(English reference translation. The Chinese original that follows this translation is the binding version.)
+
+Effective date: September 18, 2026
+Software: Snapora
+Author: Mores
+
+Please read this notice carefully before installing or using Snapora. By continuing to install, launch or use Snapora you confirm that you have read, understood and agree to it. If you do not agree with any part of it, choose "I do not accept" and cancel the installation.
+
+1. What Snapora is
+
+1. Snapora is a Windows desktop application for taking screenshots, annotating images, pinning images to the screen and managing the local clipboard.
+2. Its core features run entirely on your computer; no online account is required.
+3. Snapora does not ask you for your name, phone number, identity documents, payment details or any other identity information.
+
+2. Data the software may process
+
+1. Screenshot data: when you take a screenshot, the software reads the screen area you authorize and produces the capture you chose.
+2. Annotation data: the text, lines, rectangles, ellipses, arrows, mosaic and blur effects you add to a screenshot are stored in the current image or in the local pinned-image session.
+3. Clipboard data: when you use the copy, pin or clipboard-history features, the software may read images, text, HTML or file lists from the clipboard.
+4. Pinned-image data: the content, position, zoom level, opacity and grouping of the images you pin may be saved on this computer so they can be restored next time.
+5. Settings: hotkeys, theme, colors, line width, save folder, history size and other program settings.
+6. Logs: logs may contain the start time, software version, operation results, error messages, operating system version and basic display information, and are used to diagnose crashes and feature problems.
+7. File paths: when you save, open or import a file, the software handles the path you chose; it does not scan files unrelated to your choice.
+
+3. Where data is stored
+
+1. Screenshot files are saved to the location you choose in the save dialog or in the settings.
+2. Settings are stored in the portable configuration file or in the Windows application data folder, depending on how you start and configure the program.
+3. Pinned-image sessions, screenshot history and clipboard history are stored in the local application data folder.
+4. Logs are stored in the local application data folder and may be rotated once they reach a size limit.
+5. You can delete this local data through the program settings, Windows File Explorer, or by uninstalling the software.
+6. The uninstaller removes the program files in the installation folder by default; whether user data is removed depends on the clean-up you choose. Back up the screenshots and settings you want to keep before uninstalling.
+
+4. Clipboard access
+
+1. Snapora accesses the clipboard only to provide features such as copying screenshots, pinning and clipboard history.
+2. Clipboard content is never analyzed for advertising, profiling or user data.
+3. If you copy passwords, verification codes, keys or other sensitive content, the clipboard-history feature may store it on this computer; turn off or clear the clipboard history before handling sensitive information.
+4. You can clear the clipboard history inside the program or delete the local history files directly.
+
+5. Screen and window information
+
+1. The screenshot feature reads the screen area, window or display you actively select.
+2. The software may read display resolution, scaling and window positions in order to show selections and pinned images accurately.
+3. The software does not record the screen in the background and does not save screen content when no screenshot is being taken.
+4. You are responsible for making sure that your screenshots do not contain personal information, trade secrets or third-party protected content that you are not entitled to disclose.
+
+6. Network and remote transfer
+
+1. The current version does not upload screenshots, clipboard content, settings or logs to any remote server.
+2. The current version contains no online accounts, advertising tracking, behavioral profiling or cross-site tracking.
+3. If you use external sharing, the command line, a browser, cloud storage or other third-party programs, your data is handled under the rules of those third-party services.
+4. If online updates, network services or remote features are added in the future, the change will be announced in the release notes or in an updated privacy notice.
+
+7. Third-party components
+
+1. Snapora uses third-party software components such as Qt for its user interface and system features.
+2. Those components may have their own licenses and copyright notices; they do not change how this notice describes Snapora's own data handling.
+3. Using third-party components gives Snapora no additional rights over your clipboard, screen or file content.
+
+8. Data security
+
+1. Snapora does its best to store data through the local file interfaces provided by the operating system, but cannot guarantee the absolute security of your device, disks, user account or third-party software.
+2. Use a protected Windows user account and avoid saving sensitive screenshots to publicly shared folders.
+3. If you copy settings, logs, screenshots or history folders to other devices, you are responsible for the security of that data.
+4. If you notice anomalies, accidental deletion or data corruption, stop overwriting the original folder and keep the relevant logs for troubleshooting.
+
+9. Your controls
+
+1. You decide whether to use the screenshot, pin, clipboard history, automatic backup and logging features.
+2. You can change the save folder, history size, hotkeys and other options.
+3. You can clear the history, delete screenshots, delete settings and logs, or uninstall Snapora at any time.
+4. You can report privacy concerns, deletion requests or security issues through the author's contact details.
+
+10. Use by minors
+
+1. Snapora does not collect identity information from minors and is not specifically aimed at minors.
+2. Minors should use the software under the guidance of a guardian and be aware of the sensitive information that screenshots and the clipboard may contain.
+
+11. Changes to this notice
+
+1. This notice may be updated when the software's features, its data handling or the applicable law change.
+2. The updated notice ships with the installer and shows a new effective date.
+3. If you do not agree with the updated notice, you may stop using and uninstall Snapora.
+
+12. Contact
+
+Author: Mores
+Email: hi.9nn.cn
+GitHub: https://github.com/Moresyl/
+Blog: https://blog.biekanle.com/
+
+13. Acceptance
+
+By selecting "I accept the agreement" and clicking "Next", you confirm that you have read and agree to this Privacy Notice and Terms of Use, and you authorize Snapora to process the screen, clipboard and file data on this computer when you actively use the related features.
 
 ------------------------------------------------------------
 

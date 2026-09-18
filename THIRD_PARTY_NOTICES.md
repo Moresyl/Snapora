@@ -1,4 +1,40 @@
-# 第三方组件声明 / Third-Party Notices
+# Third-Party Notices
+
+**English** | [简体中文](#第三方组件声明)
+
+Every file in the Snapora installer other than `Snapora.exe` is a third-party component distributed under its own license. The table below reflects the files in the installation folder; the installed files are authoritative.
+
+| Component | Files in the installation folder | License | Source |
+|---|---|---|---|
+| Qt 5.15 (Core, Gui, Widgets, Network, PrintSupport, Svg, plus the platforms / styles / iconengines / imageformats / printsupport plugins) | `Qt5*_conda.dll`, `platforms\qwindows.dll`, `styles\*.dll`, `iconengines\*.dll`, `imageformats\*.dll`, `printsupport\*.dll` | GNU LGPL v3 | https://www.qt.io/ |
+| ICU | `icudt78.dll`, `icuin78.dll`, `icuuc78.dll` | Unicode License | https://icu.unicode.org/ |
+| libpng | `libpng16.dll` | PNG Reference Library License | http://www.libpng.org/ |
+| libjpeg-turbo | `jpeg8.dll` | IJG License / BSD-3-Clause / zlib License | https://libjpeg-turbo.org/ |
+| PCRE2 | `pcre2-16.dll` | BSD-3-Clause | https://www.pcre.org/ |
+| zlib | `zlib.dll` | zlib License | https://zlib.net/ |
+| Zstandard | `zstd.dll` | BSD-3-Clause | https://github.com/facebook/zstd |
+| Microsoft Visual C++ Runtime | `MSVCP140*.dll`, `VCRUNTIME140*.dll` | Microsoft Software License Terms (redistributable with applications) | https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist |
+| Inno Setup 6 | The installer itself | Inno Setup License | https://jrsoftware.org/isinfo.php |
+| Inno Setup Simplified Chinese translation | Installer UI text | Maintained by Zhenghan Yang (Kira) | https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation |
+
+## Qt (LGPL v3)
+
+Snapora links Qt 5.15 dynamically and ships the conda-forge build of Qt, which is why the library names carry the `_conda` suffix. Under the GNU LGPL v3:
+
+- The Qt 5.15 source code is available at https://download.qt.io/archive/qt/5.15/ ; the patches and build scripts used by the conda-forge build are at https://github.com/conda-forge/qt-feedstock .
+- You may replace the `Qt5*_conda.dll` files and plugins in the installation folder with your own interface-compatible build of Qt 5.15 using the same file names, and Snapora will load them.
+- The full text of the LGPL v3 is at https://www.gnu.org/licenses/lgpl-3.0.html .
+
+## Other notes
+
+- Windows API sets (`api-ms-win-*.dll`) are provided by the operating system and are not part of the installer.
+- This file only describes third-party licenses. It does not change what the Snapora Privacy Notice and Terms of Use says about Snapora's own behavior.
+
+---
+
+# 第三方组件声明
+
+[English](#third-party-notices) | **简体中文**
 
 Snapora 安装包中除 `Snapora.exe` 以外的文件都是第三方组件，按各自的许可证随软件一起分发。下表以安装目录中的实际文件为准。
 
