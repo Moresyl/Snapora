@@ -1,0 +1,48 @@
+name: Bug 反馈
+description: 报告 Snapora 的崩溃、显示或功能问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请先确认使用的是最新版本，并尽量提供完整复现步骤。
+  - type: input
+    id: version
+    attributes:
+      label: Snapora 版本
+      placeholder: "例如：1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本
+      placeholder: "例如：Windows 11 24H2 64 位"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志或截图
+      description: 请删除其中的账号、Cookie、密钥和其他隐私信息后再上传。
+      render: text
