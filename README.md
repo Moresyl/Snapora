@@ -1,3 +1,5 @@
+**Snapora is available on the [Microsoft Store](https://apps.microsoft.com/detail/XPFP1M2H9VCJPD).**
+
 <p align="center">
   <img src="snapora.png" width="96" alt="Snapora">
 </p>
