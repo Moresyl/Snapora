@@ -1,4 +1,4 @@
-**Snapora is available on the [Microsoft Store](https://apps.microsoft.com/detail/XPFP1M2H9VCJPD).**
+**Snapora is available on the Microsoft Store.** Download: <https://apps.microsoft.com/detail/XPFP1M2H9VCJPD>
 
 <p align="center">
   <img src="snapora.png" width="96" alt="Snapora">
@@ -11,6 +11,76 @@
 <p align="center"><b>English</b> | <a href="README.zh-CN.md">简体中文</a></p>
 
 > This repository only distributes the Windows installer and release notes for Snapora. The source code is not published here.
+
+## Screenshots
+
+### Capture and recording
+
+**Region selection and annotation toolbar**
+
+![Region selection and annotation toolbar](screenshots/capture.webp)
+
+**Pixel magnifier and color picker**
+
+![Pixel magnifier and color picker](screenshots/magnifier.webp)
+
+**Live preview while scrolling**
+
+![Live preview while scrolling](screenshots/scroll.webp)
+
+**The finished scrolling screenshot**
+
+![The finished scrolling screenshot](screenshots/longcapture.webp)
+
+**GIF recording controls**
+
+![GIF recording controls](screenshots/recording.webp)
+
+### Editing and pinning
+
+**Annotating a chart in the editor**
+
+![Annotating a chart in the editor](screenshots/editor.webp)
+
+**Gradient background, rounded corners and shadow**
+
+![Gradient background, rounded corners and shadow](screenshots/beautify.webp)
+
+**Pinned windows and their context menu**
+
+![Pinned windows and their context menu](screenshots/pin.webp)
+
+**Browsing recent captures**
+
+![Browsing recent captures](screenshots/history.webp)
+
+### Text and codes
+
+**Editable OCR results**
+
+![Editable OCR results](screenshots/ocr.webp)
+
+**Translated text in its original position**
+
+![Translated text in its original position](screenshots/translate.webp)
+
+**Reading a QR code from a selection**
+
+![Reading a QR code from a selection](screenshots/scan.webp)
+
+### Preferences and updates
+
+**Setting up the drag-to-pin shortcut**
+
+![Setting up the drag-to-pin shortcut](screenshots/supersnip.webp)
+
+**Capture preferences**
+
+![Capture preferences](screenshots/prefs.webp)
+
+**Update prompt and download progress**
+
+![Update prompt and download progress](screenshots/update.webp)
 
 ## Download and install
 
