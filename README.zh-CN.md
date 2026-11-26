@@ -1,4 +1,4 @@
-**Snapora 已上架 [Microsoft Store](https://apps.microsoft.com/detail/XPFP1M2H9VCJPD)。**
+**Snapora 已上架微软商店。** 下载地址：<https://apps.microsoft.com/detail/XPFP1M2H9VCJPD>
 
 <p align="center">
   <img src="snapora.png" width="96" alt="Snapora">
@@ -11,6 +11,76 @@
 <p align="center"><a href="README.md">English</a> | <b>简体中文</b></p>
 
 > 本仓库只发布 Snapora 的 Windows 安装包和版本说明，不包含源代码。
+
+## 界面截图
+
+### 截图与录制
+
+**区域框选与标注工具栏**
+
+![区域框选与标注工具栏](screenshots/capture.webp)
+
+**像素放大镜与取色**
+
+![像素放大镜与取色](screenshots/magnifier.webp)
+
+**滚动拼接实时预览**
+
+![滚动拼接实时预览](screenshots/scroll.webp)
+
+**拼接完成的长图**
+
+![拼接完成的长图](screenshots/longcapture.webp)
+
+**GIF 录制工具栏**
+
+![GIF 录制工具栏](screenshots/recording.webp)
+
+### 编辑与贴图
+
+**在编辑器中标注图表**
+
+![在编辑器中标注图表](screenshots/editor.webp)
+
+**渐变背景、圆角与阴影**
+
+![渐变背景、圆角与阴影](screenshots/beautify.webp)
+
+**桌面贴图与右键菜单**
+
+![桌面贴图与右键菜单](screenshots/pin.webp)
+
+**浏览截图历史**
+
+![浏览截图历史](screenshots/history.webp)
+
+### 文字与二维码
+
+**可编辑的文字识别结果**
+
+![可编辑的文字识别结果](screenshots/ocr.webp)
+
+**在原文位置查看译文**
+
+![在原文位置查看译文](screenshots/translate.webp)
+
+**识别选区中的二维码**
+
+![识别选区中的二维码](screenshots/scan.webp)
+
+### 设置与更新
+
+**设置拖动截屏并贴图**
+
+![设置拖动截屏并贴图](screenshots/supersnip.webp)
+
+**截屏首选项**
+
+![截屏首选项](screenshots/prefs.webp)
+
+**更新提示与下载进度**
+
+![更新提示与下载进度](screenshots/update.webp)
 
 ## 下载与安装
 
