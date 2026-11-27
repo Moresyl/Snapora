@@ -1,10 +1,12 @@
-**Snapora 已上架微软商店。** 下载地址：<https://apps.microsoft.com/detail/XPFP1M2H9VCJPD>
-
 <p align="center">
   <img src="snapora.png" width="96" alt="Snapora">
 </p>
 
 <h1 align="center">Snapora</h1>
+
+<p align="center">
+  <a href="https://apps.microsoft.com/detail/XPFP1M2H9VCJPD"><img src="./assets/microsoft-store-zh.svg" width="220" alt="从微软商店下载 Snapora" /></a>
+</p>
 
 <p align="center">Windows 截图、标注与贴图工具。捕捉、标注、整理，一切都在本机完成。</p>
 
