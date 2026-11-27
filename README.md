@@ -1,10 +1,12 @@
-**Snapora is available on the Microsoft Store.** Download: <https://apps.microsoft.com/detail/XPFP1M2H9VCJPD>
-
 <p align="center">
   <img src="snapora.png" width="96" alt="Snapora">
 </p>
 
 <h1 align="center">Snapora</h1>
+
+<p align="center">
+  <a href="https://apps.microsoft.com/detail/XPFP1M2H9VCJPD"><img src="./assets/microsoft-store-en.svg" width="220" alt="Get it from Microsoft Store: Snapora" /></a>
+</p>
 
 <p align="center">Screenshot, annotation and pin-to-screen tool for Windows. Capture, annotate, organize. Everything stays on your machine.</p>
 
